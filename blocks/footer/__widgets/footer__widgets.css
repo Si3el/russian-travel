@@ -1,0 +1,14 @@
+.footer__widgets {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__widgets {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

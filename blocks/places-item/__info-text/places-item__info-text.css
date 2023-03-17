@@ -1,0 +1,14 @@
+.places-item__info-text {
+    margin: 0;
+    padding: 0 0 26px 0;
+}
+
+.places-item__info-text:last-child {
+    padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .places-item__info-text {
+        padding: 0 0 25px 0;
+    }
+}
