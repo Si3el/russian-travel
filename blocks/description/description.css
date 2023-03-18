@@ -1,7 +1,7 @@
 .description {
     max-width: 984px;
-    margin: 0 auto;
-    padding: 0 0 92px 0;
+    margin: 0 auto 92px auto;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,13 +16,13 @@
 @media screen and (max-width: 950px){
     .intro__figcaption {
         max-width: 720px;
-        padding: 0 24px 88px 24px;
+        margin: 0 24px 88px 24px;
     }
 }
 
 @media screen and (max-width: 375px){
     .intro__figcaption {
         max-width: 288px;
-        padding: 0 16px 64px 16px;
+        margin: 0 16px 64px 16px;
     }
 }

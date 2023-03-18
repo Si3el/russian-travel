@@ -1,13 +1,13 @@
 .places-item {
-    margin:0;
-    padding: 0 0 80px 0;
     display: grid;
+    margin: 0 0 80px 0;
+    padding: 0;
     grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / minmax(340px, 460px) minmax(352px, 484px);
     gap: 48px 40px;
 }
 
 .places-item:last-child {
-   padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -18,14 +18,14 @@
 
 @media screen and (max-width: 1023px) {
     .places-item {
-        padding: 0 0 73px 0;
+        margin: 0 0 73px 0;
         gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places-item {
-        padding: 0 0 50px 0;
+        margin: 0 0 50px 0;
         grid-template-columns: 100%;
         gap: 32px;
     }
