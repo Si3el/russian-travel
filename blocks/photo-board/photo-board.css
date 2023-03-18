@@ -1,12 +1,12 @@
 .photo-board {
-   padding: 0;
-   margin: 0 auto 92px auto;
-   width: 100%;
-   max-width: 1184px;
-   box-sizing: border-box;
    display: grid;
    justify-content: center;
-   grid-template-columns: repeat(auto-fit,min-max(284px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+   box-sizing: border-box;
+   max-width: 1184px;
+   width: 100%;
+   padding: 0 0 92px 0;
+   margin: 0 auto;
    gap: 16px;
 }
 
@@ -21,7 +21,7 @@
     .photo-board {
         grid-template-columns: repeat(2,352px);
         gap: 16px;
-        margin: 0 auto 88px auto;
+        padding: 0 0 88px 0;
         width: calc(100% - 48px);
     }
 }
@@ -29,7 +29,7 @@
 @media screen and (max-width: 767px){
     .photo-board {
         grid-template-columns: 100%;
-        margin: 0 auto 64px auto;
+        padding: 0 0 64px 0;
         width: calc(100% - 32px);
         gap: 12px;
     }
