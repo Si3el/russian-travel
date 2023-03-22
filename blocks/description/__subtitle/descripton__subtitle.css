@@ -21,8 +21,4 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
-    .description__subtitle {
-      line-height: 163%;
-    }
-  }
+  
