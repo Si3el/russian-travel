@@ -14,9 +14,9 @@
 
 /* Точки перлома */
 @media screen and (max-width: 1024px) {
-  .intro__subtitlee {
+  .intro__subtitle {
       padding-bottom: 56px;
-      width: 640px;
+      max-width: 640px;
     }
   }
   
